@@ -1,0 +1,39 @@
+\documentclass[fontsize=13bp,oneside,print]{proposal}
+
+\addbibresource{backmatter/citations.bib}
+
+\title{A Tale Of Desperation: COVID-19 and The Struggles Of The Blue Collared Migrant Community}
+\author{Lumbini Shill}
+\date{February 2021}
+\institution{Savitribai Phule Pune University}
+\course{Doctor of Philosophy (Ph.D.) in English}
+\guide{Dr. Muckta Karmarkar}
+\researchcenter{\textbf{Institute Of Advanced Studies In English}\protect\\Aundh, Pune — 411007}
+
+\begin{document}
+
+% Double spacing between words
+\newdimen\origiwspc
+\newdimen\origiwstr
+\origiwspc=\fontdimen2\font % original inter word space
+\origiwstr=\fontdimen3\font % original inter word stretch
+\fontdimen3\font=\origiwstr
+\fontdimen2\font=2.5\origiwspc % inter word space
+
+\input{frontmatter/title.tex}
+
+\begingroup
+\mainmatter
+\input{mainmatter/1-introduction.tex}
+\input{mainmatter/2-aims.tex}
+\input{mainmatter/3-objectives.tex}
+\input{mainmatter/4-hypothesis.tex}
+\input{mainmatter/5-rationale.tex}
+\input{mainmatter/6-implications.tex}
+\endgroup
+
+\input{backmatter/bibliography.tex}
+
+\input{backmatter/signatures.tex}
+
+\end{document}
