@@ -1,6 +1,6 @@
 
 
-A Latex class and example Ph.D. proposal for Savitribai Phule Pune University Humanities department.
+A Latex template and example Ph.D. proposal for Savitribai Phule Pune University Humanities department.
 
 Specifications
 --------------
@@ -12,6 +12,7 @@ Specifications
 3. Titles of sections to the left-hand side and in bold
 4. Entire draft aligned from both, the right and left, sides 
 5. Type in Times New Roman, 13 font
+6. Double spacing between words
 
 ### Bibliography
 
